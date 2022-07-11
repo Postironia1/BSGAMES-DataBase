@@ -1,0 +1,95 @@
+main.custom{
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.newsfeed{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(16, 0, 247, 0);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 5%;
+}
+.block{
+    background-color: #2e2c2c;
+    margin-top: 3em;
+    display: block;
+    border-radius: 0.5%;
+}
+
+.newsfeed .block .title{
+    font-family: 'PressStart2P';
+    color: #fff;
+    font-size: 0.8em;
+    margin:0;
+    padding: 0;
+    display: block;
+    margin-left: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 0.4em;
+}
+
+.newsfeed .block .title p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+    text-align: left;
+    font-style: italic;
+}
+
+.image{
+    padding: 0;
+    margin: 0;
+    width:100%;
+}
+
+.image img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.content{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1em;
+}
+
+.content p{
+    margin: 0;
+    padding: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.3em;
+    font-size: 0.9em;
+    text-align: left;
+    text-align: justify;
+}
+
+.data{
+    color: #b6adad;
+    margin: 0;
+    padding: 0;
+    margin: 0.5em;
+    margin-top: 0.3em;
+    margin-right: 0.8em;
+    display: block;
+}
+
+.data p{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 0.6em;
+}
+
+.content ul{
+    text-align: left;
+    margin:0;
+    font-size: 0.9em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}

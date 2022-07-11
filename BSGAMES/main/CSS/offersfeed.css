@@ -1,0 +1,70 @@
+aside.offersfeed{
+	vertical-align: top;
+	width: 25%;
+	height: 100%;
+	margin-left:0;
+	margin-right:0;
+	padding: 0;
+	display: inline-block;
+	background-color: rgba(21, 21, 204, 0);
+}
+
+.offersfeed .of{
+	margin:0;
+	padding: 0;
+}
+
+.of .head{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.of .head .header{
+	font-family: 'PressStart2P';
+	font-size: 0.8em;
+	text-align: left;
+}
+
+.offersfeed a{
+	text-decoration: none;
+}
+
+.offersfeed div.item{
+	background-color: rgb(255, 255, 255);
+	background-size: 100% 10vmax;
+	background-repeat: no-repeat;
+	height: 10vmax;
+	position: relative;
+	margin-top: 0.7vmax;
+}
+
+.item p.name
+{
+	font-family: 'PressStart2P';
+	opacity: 0;
+	font-size: 0.6em;
+	margin: 0;
+	color: white;
+	text-align: rigth;
+	float: right;
+	text-shadow: black 0 0 2px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 0.5em;
+	margin-bottom: 0.2em;
+	text-shadow:
+                1px 1px #002983,
+                2px 2px #002983,
+                3px 3px #002983,
+                4px 4px #002983;
+}
+
+.item:hover .name{
+	opacity: 1;
+}
+.item:hover{
+	box-shadow: inset 100px 2px 100px #00136770;
+}
+

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Список</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/list.css">
+	<link rel="stylesheet" type="text/css" href="CSS/options.css">
+	<link rel="stylesheet" type="text/css" href="CSS/find.css">	
+</head>
+<body>
+	<nav>
+		<a href="#main-content" class="skip-link">Skip</a>
+		<div class="logo">
+			<div class="ico">
+				<img src="../media/logo.png" alt="ывтызваыав">
+			</div>
+		</div>
+		<div class="menu">
+			<a class = "navlink" href="../main/index.html">Главная</a>
+			<a class = "navlink" href="../list/list.html">Все игры</a>
+			<a class = "navlink" href="../news/news.html">Новости</a>
+		</div>
+		
+		<div class="profile">
+			
+
+			<a href=""><img src="../basket.png" alt="_"></a>
+			
+			<a href=""><img src="../person-circle.png" alt="_"><p>Войти</p></a>
+		</div>
+	</nav>
+
+	<span id = "main-content"></span>
+	<br id = "back"><br><br>
+	
+	<main>
+		<section class="find">
+			<div class="findfield">
+				<input type="search" name="q" placeholder="Поиск...">
+				<a class="findbutton"><img src="../media/find.png" alt="Поиск"></a>
+			</div>
+		</section>
+		<section class="fullist">
+			<div class="list">
+		
+				<div class="line">
+					<a href="../games/games/csgo/game.html" class="item" style="margin-top: 0;">
+						<div class="fill sale">
+							<img class = "mainimg" src="../games/games/csgo/header.jpg" alt="logo">
+							<p class="title">
+								Counter-Strike: Global Offensive
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 30%</div>
+								<p class="cost">
+									756 руб. 
+								</p>
+								<p class="cost old">1080 руб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+					<a href="../games/games/dc/game.html" class="item" style="margin-top: 0;">
+						<div class="fill">
+							<img class = "mainimg" src="../games/games/dc/header.jpg" alt="logo">
+							<p class="title">
+								Dead Cells
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 50%</div>
+								<p class="cost">
+									499 pуб.
+								</p>
+								<p class="cost old">1080 руб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+					<a href="../games/games/dh2/game.html" class="item" style="margin-top: 0;">
+						<div class="fill" style="margin-right:0;">
+							<img class = "mainimg" src="../games/games/dh2/header.jpg" alt="logo">
+							<p class="title">
+								Dishonored 2
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 30%</div>
+								<p class="cost">
+									909 pуб. 
+								</p>
+								<p class="cost old">1299 руб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="line">
+					<a href="../games/games/gm/game.html" class="item">
+						<div class="fill">
+							<img class = "mainimg" src="../games/games/gm/header.jpg" alt="logo">
+							<p class="title">
+								Garry's Mod
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 30%</div>
+								<p class="cost">
+									255 pуб.
+								</p>
+								<p class="cost old">365 pуб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+					<a href="../games/games/fls/game.html" class="item">
+						<div class="fill sale">
+							<img class = "mainimg" src="../games/games/fls/header.jpg" alt="logo">
+							<p class="title">
+								FAR: Lone Sails
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 50%</div>
+								<p class="cost">
+									180 руб. 
+								</p>
+								<p class="cost old">360 pуб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+					<a href="../games/games/hk/game.html" class="item">
+						<div class="fill" style="margin-right:0;">
+							<img class = "mainimg" src="../games/games/hk/header.jpg" alt="logo">
+							<p class="title">
+								Hollow Knight
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 30%</div>
+								<p class="cost">
+									349 pуб. 
+								</p>
+								<p class="cost old">499 pуб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="line">
+					<a href="../games/games/pp3/game.html" class="item">
+						<div class="fill sale">
+							<img class = "mainimg" src="../games/games/pp3/header.jpg" alt="logo">
+							<p class="title">
+								Patapon 3
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 75%</div>
+								<p class="cost">
+									1040 руб.
+								</p>
+								<p class="cost old">4160 руб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+					<a href="../games/games/kz/game.html" class="item">
+						<div class="fill sale">
+							<img class = "mainimg" src="../games/games/kz/header.jpg" alt="logo">
+							<p class="title">
+								Katana ZERO
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 50%</div>
+								<p class="cost">
+									180 pуб. 
+								</p>
+								<p class="cost old">360 pуб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+					<a href="../games/games/pd2/game.html" class="item">
+						<div class="fill" style="margin-right:0;">
+							<img class = "mainimg" src="../games/games/pd2/header.jpg" alt="logo">
+							<p class="title">
+								PAYDAY 2
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 30%</div>
+								<p class="cost">
+									209 pуб. 
+								</p>
+								<p class="cost old">299 pуб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="line">
+					<a href="../games/games/r6s/game.html" class="item">
+						<div class="fill">
+							<img class = "mainimg" src="../games/games/r6s/header.jpg" alt="logo">
+							<p class="title">
+								Tom Clancy's Rainbow Six® Siege
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 75%</div>
+								<p class="cost">
+									829  руб.
+								</p>
+								<p class="cost old">3316  руб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+					<a href="../games/games/ds3/game.html" class="item">
+						<div class="fill sale">
+							<img class = "mainimg" src="../games/games/ds3/header.jpg" alt="logo">
+							<p class="title">
+								DARK SOULS™ III
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 30%</div>
+								<p class="cost">
+									1749 pуб. 
+								</p>
+								<p class="cost old">2499 pуб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+							</div>
+						</div>
+					</a>
+					<a href="../games/games/w3/game.html" class="item">
+						<div class="fill" style="margin-right:0;">
+							<img class = "mainimg" src="../games/games/w3/header.jpg" alt="logo">
+							<p class="title">
+								Ведьмак 3: Дикая Охота
+							</p>
+							<div class="costinfo">
+								<div class="discount">- 30%</div>
+								<p class="cost">
+									1199  pуб. 
+								</p>
+								<p class="cost old">1199  pуб.</p>
+							</div>
+							<div class="addback">
+								<img class = "ico"src="../media/addto.png" alt="Доб">
+
+							</div>
+						</div>
+					</a>
+				</div>
+				</div>
+				<aside class = "options">
+				<div class="optblock">
+					<fieldset class = "optchose">
+						<legend>Система</legend>
+						<p><label><input type="checkbox"></label>Windows</p>
+						<p><label><input type="checkbox"></label>OSX</p>
+						<p><label><input type="checkbox"></label>Linux</p>
+					</fieldset>
+				</div>
+
+				<div class="optblock">
+					<fieldset class = "optchose">
+						<legend>Особености</legend>
+						<p><label><input type="checkbox"></label>Одиночная игра</p>
+						<p><label><input type="checkbox"></label>Сетевая игра</p>
+						<p><label><input type="checkbox"></label>Кооперативный режим</p>
+						<p><label><input type="checkbox"></label>Поддержка контроллера</p>
+					</fieldset>
+				</div>
+				</aside>
+		</section>
+	</main>
+	<footer> 
+		
+		<div class="line" id = "contacts">
+			<p class="title">
+				Контакты
+			</p>
+			<a href="http://"></a>
+			<div class="ref" id="vk"><a href="http://vk.com\privetgoktebe"><img src="../media/CONTACTS/vk.png" alt="VK"></a></div>
+			<div class="ref" id="mail"><a href="mailto:vlad.timofeev.2002@gmail.com"><img src="../media/CONTACTS/gmail.png" alt="MAIL"></a></div>
+		</div>
+		<div class="line" id="backoption">
+			<a href="#back" id = "back"><div class="borderbutton"><img src="../media/uparr.png" alt=""></div></a>
+		</div>
+		<div class="line" id="devinfo">
+			<p class="title">Создатель:</p>
+			<p class="textcontent">Студент группы КС-20 Тимофеев В.Д.</p>
+		</div>
+
+		<div class="line" id="feedback">
+			<p class="title">Оставить отзыв</p>
+			<p class="textcontent"><a href="../feedback/feedback.html">Заполнить форму</a></p>
+		</div>
+
+	</footer>
+</body>
+</html>

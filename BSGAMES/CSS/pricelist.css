@@ -1,0 +1,121 @@
+
+
+table {
+    border-spacing: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+
+th {
+    padding: 10px 20px;
+    color: #F9C941;
+    border:3px solid blue;
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+td {
+    vertical-align: middle;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border:2px solid blue;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    margin: 20px;
+
+
+}
+label {
+    margin: 20px;
+    padding: 20px;
+    display: block;
+}
+h2 {
+    margin: 20px;
+}
+h3 {
+    margin: 20px;
+    color: whitesmoke;
+}
+p{
+    margin: 10px;
+}
+button {
+    padding: 5px 10px;
+    background: navajowhite;
+    width: 150px;
+    margin: auto;
+}
+input {
+    background: antiquewhite;
+    outline: outset;
+    width: 350px;
+    margin: auto;
+    border: none;
+}
+
+a {
+    color: navajowhite;
+}
+a.hover {
+    color: navajowhite;
+}
+
+.msg {
+    color: #ff7487;
+}
+
+nav {
+    padding: 0;
+    padding-left: 7vw;
+    padding-right:7vw;
+    font-family: 'PressStart2P';
+    background-color: #001367/*1f2d66*/;
+    z-index: 10;
+    position: fixed;
+    left:0;
+    font-size: 0.4em;
+    width: 86vw;
+    margin-top: 0;
+
+}
+
+
+header {
+    margin: 0;
+    padding: 0;
+    border-bottom: 0.12em #002983 solid;
+}
+
+
+footer {
+    padding-top: 1.5vmax;
+    width: 98%;
+    /* background-color: #002983; */
+    background-color: #2e2c2c;
+    margin: 0;
+    pad: 0;
+    padding-bottom: 2vmax;
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+}
+
+nav a
+{
+    font-size: 0.8em;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+

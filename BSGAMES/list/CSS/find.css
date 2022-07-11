@@ -1,0 +1,65 @@
+section.find{
+    background-color: rgba(0, 128, 0, 0);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+    margin-top:3vh;
+    height: 3em;
+    text-align: center;
+}
+
+.findfield{
+    padding: 0.3em;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #2e2c2c;
+    border-radius: 10px;
+}
+
+.findfield input {
+    outline:none;
+}
+.findfield input[type="search"]
+{
+    
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    padding-top: 0.3em;
+    vertical-align: top;
+    background-color:#2e2c2c;
+    color: #ffffff;
+    border:none;
+    font-size:1em;
+    font-family: 'GloberSemiBoldFree';
+    border-right: 1px #ffffff solid;
+    padding-right: 1em;
+}
+
+
+.findfield .findbutton{
+    cursor: pointer;
+    vertical-align: top;
+    
+    min-height: 1.7em;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.2em;
+}
+
+.findbutton:hover  img{
+    opacity: 0.7;
+    transition: 0.2s ease;
+
+    transition-property: opacity;
+
+}
+
+.findbutton img{
+    margin-left: 1.3%;
+    vertical-align: top;
+    padding-top: 0.1em;
+    height: 1.4em;
+}

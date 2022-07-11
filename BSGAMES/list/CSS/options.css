@@ -1,0 +1,56 @@
+aside.options{
+	border: 1px #ffffff solid;
+	vertical-align: top;
+	width: 22%;
+	height: 100%;
+	margin-left:1%;
+	margin-right:0;
+	padding: 0;
+
+	position: sticky;
+	top: 3em;
+	transform: translate(0, 0em);
+  	vertical-align: top;
+
+	background-color: rgba(21, 21, 204, 0);
+	border-radius: 0.5em;
+
+	border: none;
+	
+}
+
+.optblock{
+	
+	font-size:0.8em;
+	margin: 0;
+	padding: 0;
+	width: 97%;
+	color: #ffffff;
+	background-color: #2e2c2c;
+	border-radius: 0.5em;
+	margin: 1.5%;
+	margin-bottom: 5%;
+	padding: 1%
+}
+
+.optblock .optchose{
+	text-align: left;
+	border:none;
+}
+
+.optchose legend
+{
+	color: #2668e2;
+}
+
+.optchose p{
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0;
+}
+
+/* .optchose input[type="checkbox"]
+{
+	border: none;
+	background-color: red;
+} */

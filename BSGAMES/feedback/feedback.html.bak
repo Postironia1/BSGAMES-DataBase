@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Оставить отзыв</title>
+	<link rel="stylesheet" type="text/css" href="CSS/feedback.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+<body>
+	<nav>
+		<a href="#main-content" class="skip-link">Skip</a>
+		<div class="logo">
+			<div class="ico">
+				<img src="../media/logo.png" alt="ывтызваыав">
+			</div>
+		</div>
+		<div class="menu">
+			<a class = "navlink" href="../main/index.html">Главная</a>
+			<a class = "navlink" href="../list/index.html">Все игры</a>
+			<a class = "navlink" href="../news/index.html">Новости</a>
+			<a class = "navlink" href="../pricelist/price.html">Прайслист</a>
+		</div>
+		
+		<div class="profile">
+			
+
+			<a href=""><img src="../basket.png" alt="_"></a>
+			
+			<a href=""><img src="../person-circle.png" alt="_"><p>Войти</p></a>
+		</div>
+	</nav>
+
+	<a name = "block1"></a><span id = "main-content"></span><span id = "back"></span>
+	<br><br><br><br>
+	<main class = "custom">
+		<section class="feedback">
+			<div class="options">
+				<fieldset class="option">
+					<legend> Оцените качество функционала сайта</legend>
+					
+					<div class="line">
+						<div class="elem"><input type="radio"name="counter1"><label>1</label></div>
+						<div class="elem"><input type="radio"name="counter1"><label>2</label></div>
+						<div class="elem"><input type="radio"name="counter1"><label>3</label></div>
+						<div class="elem"><input type="radio"name="counter1"><label>4</label></div>
+						<div class="elem"><input type="radio"name="counter1"><label>5</label></div>
+					</div>
+
+					
+				</fieldset>
+				<fieldset class="option">
+					<legend> Оцените качество дизайна сайта</legend>
+					
+					<div class="line">
+						<div class="elem"><input type="radio"name="counter2"><label>1</label></div>
+						<div class="elem"><input type="radio"name="counter2"><label>2</label></div>
+						<div class="elem"><input type="radio"name="counter2"><label>3</label></div>
+						<div class="elem"><input type="radio"name="counter2"><label>4</label></div>
+						<div class="elem"><input type="radio"name="counter2"><label>5</label></div>
+					</div>
+
+					
+				</fieldset>
+				<fieldset class="option">
+					<legend> Оцените предсавленный ассортимент игр </legend>
+					
+					<div class="line">
+						<div class="elem"><input type="radio"name="counter3"><label>1</label></div>
+						<div class="elem"><input type="radio"name="counter3"><label>2</label></div>
+						<div class="elem"><input type="radio"name="counter3"><label>3</label></div>
+						<div class="elem"><input type="radio"name="counter3"><label>4</label></div>
+						<div class="elem"><input type="radio"name="counter3"><label>5</label></div>
+					</div>
+
+					
+				</fieldset>
+				<fieldset class="option">
+					<legend> Оцените полезный функционал сайта</legend>
+					
+					<div class="line">
+						<div class="elem"><input type="radio"name="counter4"><label>1</label></div>
+						<div class="elem"><input type="radio"name="counter4"><label>2</label></div>
+						<div class="elem"><input type="radio"name="counter4"><label>3</label></div>
+						<div class="elem"><input type="radio"name="counter4"><label>4</label></div>
+						<div class="elem"><input type="radio"name="counter4"><label>5</label></div>
+					</div>
+
+					
+				</fieldset>
+				<fieldset class="option">
+					<legend> Оцените уровень использованных технологий </legend>
+					
+					<div class="line">
+						<div class="elem"><input type="radio"name="counter7"><label>1</label></div>
+						<div class="elem"><input type="radio"name="counter7"><label>2</label></div>
+						<div class="elem"><input type="radio"name="counter7"><label>3</label></div>
+						<div class="elem"><input type="radio"name="counter7"><label>4</label></div>
+						<div class="elem"><input type="radio"name="counter7"><label>5</label></div>
+					</div>
+
+					
+				</fieldset>
+				<fieldset class="option">
+					<legend> Оцените гармоничность дизайна </legend>
+					
+					<div class="line">
+						<div class="elem"><input type="radio"name="counter6"><label>1</label></div>
+						<div class="elem"><input type="radio"name="counter6"><label>2</label></div>
+						<div class="elem"><input type="radio"name="counter6"><label>3</label></div>
+						<div class="elem"><input type="radio"name="counter6"><label>4</label></div>
+						<div class="elem"><input type="radio"name="counter6"><label>5</label></div>
+					</div>
+
+					
+				</fieldset>
+				<fieldset class="option" style=" margin-bottom: 3%;">
+					<legend> Оцените общее качество сайта </legend>
+					
+					<div class="line">
+						<div class="elem"><input type="radio"name="counter8"><label>1</label></div>
+						<div class="elem"><input type="radio"name="counter8"><label>2</label></div>
+						<div class="elem"><input type="radio"name="counter8"><label>3</label></div>
+						<div class="elem"><input type="radio"name="counter8"><label>4</label></div>
+						<div class="elem"><input type="radio"name="counter8"><label>5</label></div>
+					</div>
+
+					
+				</fieldset>
+			</div>
+
+			<div class="send">
+				<div class="button">
+					<a href="../main/index.html" class="submitbuton">Отправить</a>
+				</div>
+			</div>
+
+		</section>
+	</main>
+	<footer> 
+		
+		<div class="line" id = "contacts">
+			<p class="title">
+				Контакты
+			</p>
+			<a href="http://"></a>
+			<div class="ref" id="vk"><a href="http://vk.com\privetgoktebe"><img src="../media/CONTACTS/vk.png" alt="VK"></a></div>
+			<div class="ref" id="mail"><a href="mailto:vlad.timofeev.2002@gmail.com"><img src="../media/CONTACTS/gmail.png" alt="MAIL"></a></div>
+		</div>
+		<div class="line" id="backoption">
+			<a href="#back" id = "back"><div class="borderbutton"><img src="../media/uparr.png" alt=""></div></a>
+		</div>
+		<div class="line" id="devinfo">
+			<p class="title">Создатель:</p>
+			<p class="textcontent">Студент группы КС-20 Тимофеев В.Д.</p>
+		</div>
+
+		<div class="line" id="feedback">
+			<p class="title">Оставить отзыв</p>
+			<p class="textcontent"><a href="">Заполнить форму</a></p>
+		</div>
+
+	</footer>
+</body>
+
+</html>

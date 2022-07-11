@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BS GAMES</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/gamefeed.css">
+	<link rel="stylesheet" type="text/css" href="CSS/gamelist.css">
+	<link rel="stylesheet" type="text/css" href="CSS/offersfeed.css">
+	<link rel="stylesheet" type="text/css" href="CSS/newsfeed.css">
+	<script src="../JS/main.js"></script>
+
+</head>
+<body>
+	<nav>
+		<a href="#main-content" class="skip-link">Skip</a>
+		<div class="logo">
+			<div class="ico">
+				<img src="../media/logo.png" alt="ывтызваыав">
+			</div>
+		</div>
+		<div class="menu">
+			<a class = "navlink" href="../main/index.html">Главная</a>
+			<a class = "navlink" href="../list/list.html">Все игры</a>
+			<a class = "navlink" href="../news/news.html">Новости</a>
+			<a class = "navlink" href="../pricelist/index.html">Прайслист</a>
+		</div>
+		
+		<div class="profile">
+			
+
+			<a href=""><img src="../basket.png" alt="_"></a>
+			
+			<a href=""><img src="../person-circle.png" alt="_"><p>Войти</p></a>
+		</div>
+	</nav>
+
+	<span id = "main-content"></span>
+	<br id = "back"><br><br><br>
+	
+	<main>
+		<?php
+			$host = 'localhost';  // Хост, у нас все локально
+			$user = 'user_bd';    // Имя созданного вами пользователя
+			$pass = '1q2w3e4r5t'; // Установленный вами пароль пользователю
+			$db_name = 'my_db';   // Имя базы данных
+			$link = mysqli_connect($host, $user, $pass, $db_name); // Соединяемся с базой
+
+			// Ругаемся, если соединение установить не удалось
+			if (!$link) {
+				echo 'Не могу соединиться с БД. Код ошибки: ' . mysqli_connect_errno() . ', ошибка: ' . mysqli_connect_error();
+				exit;
+			}
+		?>
+	</main>
+	<footer> 
+		
+		<div class="line" id = "contacts">
+			<p class="title">
+				Контакты
+			</p>
+			<a href="http://"></a>
+			<div class="ref" id="vk"><a href="http://vk.com\privetgoktebe"><img src="../media/CONTACTS/vk.png" alt="VK"></a></div>
+			<div class="ref" id="mail"><a href="mailto:vlad.timofeev.2002@gmail.com"><img src="../media/CONTACTS/gmail.png" alt="MAIL"></a></div>
+		</div>
+		<div class="line" id="backoption">
+			<a href="#back" id = "back"><div class="borderbutton"><img src="../media/uparr.png" alt=""></div></a>
+		</div>
+		<div class="line" id="devinfo">
+			<p class="title">Создатель:</p>
+			<p class="textcontent">Студент группы КС-20 Тимофеев В.Д.</p>
+		</div>
+
+		<div class="line" id="feedback">
+			<p class="title">Оставить отзыв</p>
+			<p class="textcontent"><a href="../feedback/feedback.html">Заполнить форму</a></p>
+		</div>
+
+	</footer>
+</body>
+</html>
